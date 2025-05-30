@@ -9,7 +9,7 @@ O fluxo do projeto inclui:
 - Configuração do DataCollator para tarefas de Seq2Seq.
 - Definição de parâmetros de treinamento.
 - Fine-tuning utilizando a API Trainer da Hugging Face.
-- Previsões usando o modelo treinado
+- Testes usando o modelo treinado
 
 ---
 
@@ -35,5 +35,5 @@ Contém mais de 16 mil exemplos de conversas reais com resumos humanamente anota
 3. Utilizo o `DataCollatorForSeq2Seq` para lidar com o padding dinâmico.
 4. Defino `TrainingArguments` com parâmetros como taxa de aprendizado, batch size, e estratégias de avaliação e salvamento.
 5. Faço o fine-tuning com `Trainer`, ajustando o modelo à tarefa de summarization.
-6. Faço predições utilizando o modelo treinado
+6. Faço testes utilizando o modelo treinado
 
